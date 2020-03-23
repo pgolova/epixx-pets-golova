@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/subset-Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/subset-Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/subset-FiraSans-Medium.woff2') format('woff2'),
+        url('../fonts/subset-FiraSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/subset-Roboto-Italic.woff2') format('woff2'),
+        url('../fonts/subset-Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+body {
+	background-color: #ede9e0;
+	font-family: Roboto, sans-serif;
+}
+
+.wrap {
+	margin: auto;
+	width: 1024px;
+	background-image: url(../images/dog-bag.png);
+	background-position: 40px 0;
+	background-repeat: no-repeat;
+}
+
+.container {
+	margin: auto;
+	width: 940px;
+}
+
+header {
+	padding-top: 10px;
+}
+
+.header-navigation {
+	width: 88%;
+	text-align: right;
+	display: inline-block;
+}
+
+.menu_navigation,
+.logo {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu_navigation {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.menu_navigation a,
+.phone {
+	margin-right: 20px;
+	font-size: 16px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: normal;
+    color: #202020;
+    line-height: 1.875;
+    text-decoration: none;
+
+}
+
+.phone {
+	display: inline-block;
+	color: #510fad;
+	padding-top: 20px;
+
+}
+
+.promo_block {
+	text-align: left;
+	display: block;
+	color: #202020;
+	width: 437px;
+	margin-left: 310px;
+	font-family: FiraSans, sans-serif;
+}
+
+.promo_subrext {
+	margin: auto;
+	font-family: Roboto-Medium, sans-serif;
+	font-size: 14px;
+	color: #727173;
+
+}
+
+
+
+
